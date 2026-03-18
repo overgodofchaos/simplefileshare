@@ -1,7 +1,7 @@
 FROM nginx:alpine
 
 RUN apk update && apk add --no-cache \
-    git openssh-client busybox-cron \
+    git openssh-client busybox \
     && rm -rf /var/cache/apk/*
 
 RUN mkdir -p /data/files

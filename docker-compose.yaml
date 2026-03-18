@@ -9,5 +9,5 @@ services:
       GIT_REPO: "git:exampleuser/repo.git" # Optional. If using git.
       GIT_SYNC_INTERVAL: "*/15 * * * *" # Optional. If using git. Cron-like.
     volumes:
-      - "./user_data/files:/data/files" # Optional. If not using git.
-      - "./user_data/ssh:/root/.ssh" # Optional. If using private git repo.
+      # - "./user_data/files:/data/files" # Optional. If not using git.
+      - "./user_data/ssh:/root/ssh" # Optional. If using private git repo.
