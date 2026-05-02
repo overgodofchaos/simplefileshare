@@ -7,8 +7,8 @@ The simplest application for distributing files via http\https using basic http 
 
 1. clone repo and make own compose file
 ```shell
-git clone <this_repo>
-cd <this_repo>
+git clone https://github.com/overgodofchaos/simplefileshare.git
+cd simplefileshare
 cp docker-compose.example.yaml docker-compose.yaml
 ```
 2. modify the compose file to suit your needs.
