@@ -14,6 +14,7 @@ cp docker-compose.example.yaml docker-compose.yaml
 2. modify the compose file to suit your needs.
 3. create file storage
 4. run with `docker compose up --build -d`
+5. get the file using basic HTTP authentication. Example: `https://<username>:<password>@example.com/files/<filename>`
    
 example compose file content:
 ```yaml
