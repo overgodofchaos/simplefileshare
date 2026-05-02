@@ -40,7 +40,7 @@ To access a private repository, you'll need a key file.
 
 You can configure access to the service on a non-standard port using the config file.
 
-Config file example:
+config file example:
 ```plaintext
 Host git
 	HostName github.com
@@ -51,6 +51,13 @@ Host git
 	StrictHostKeyChecking accept-new
 ```
 *The key file containing the private key should be located next to the config file. The corresponding public key should be added to the Git account.*
+
+ssh dir structure example:
+```plaintext
+.
+├── config
+└── key
+```
 
 
 ## file storage structure
